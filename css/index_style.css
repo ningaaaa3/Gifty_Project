@@ -1,0 +1,14 @@
+*{
+
+	margin: 0px;
+	padding: 0px;
+    font-family: Poppins;
+}
+.nav-item{
+    padding-left: 9px;
+}
+.navbar-dark .navbar-nav .nav-link:hover{
+    color: rgb(166, 122, 75); }
+.navbar-brand{
+    margin-top: -3px;
+}
