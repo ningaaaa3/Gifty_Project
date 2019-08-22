@@ -12,3 +12,93 @@
 .navbar-brand{
     margin-top: -3px;
 }
+
+
+/*About */
+.about-desc 
+{
+    padding:70px 0px;
+}
+.about-desc h2
+{
+    font-size: 2.5em;
+    font-weight: 700;
+    text-transform: capitalize;
+        margin-bottom: 15px;
+}
+.about-desc p
+{
+    color: #777777;
+    font-weight: 300px;
+}
+.profile_title
+{
+        font-weight: 700;
+    text-transform: uppercase;
+}
+.about-p
+{
+    font-weight: 300;
+    color: #777777;
+}
+.social 
+{
+   padding:20px 0px; 
+}
+.social ul li
+{
+    display: inline;
+ 
+}
+.social ul li a
+{
+    width: 40px;
+    height: 40px;
+    line-height: 42px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    padding: 14px 16px;
+    text-align: center;
+    border: 1px solid #999999;
+    color: #777777;
+}
+.social ul li:hover a
+{
+    color: #ffffff;
+      background:  #ec3237 ;
+    border: none;
+}
+.progress_wrap
+{
+    margin-top:20px;
+}
+.progress-bar {
+    background-color: #ec3237;
+    height: 100%;
+    font-size: 12px;
+    line-height: 20px;
+    color: #fff;
+    text-align: center;
+}
+.progress_title {
+    display: inline-block;
+    color: #777777;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+.muted {
+    color: #777777;
+}
+.pull-right {
+    float: right!important;
+}
+.go-to-work-a
+{
+    padding: 14px 30px ;
+    color:#ffffff;
+    border-radius: 0;
+    margin-bottom:70px;
+}
+
+
+/*end about*/
