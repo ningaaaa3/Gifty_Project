@@ -12,8 +12,59 @@
 .navbar-brand{
     margin-top: -3px;
 }
-
-
+/* start of section home */
+.home
+{
+    height: 650px;
+    background-image: url(../images/cover.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.home .overlay
+{
+    width:100%;
+    height: 100%;
+    background-color: rgba(236, 51, 55, 0.7);
+}
+.home .overlay .btn-outline-light
+{
+    border-radius: 0;
+    border-width: 2px;
+}
+.home .overlay .btn-outline-light:hover
+{
+    color:rgba(236, 51, 55, 0.7);
+}
+.home .overlay .caption
+{
+    width: 80%;
+}
+.home .overlay .caption h1
+{
+    font-weight: 700;
+    font-size: 3.5em;
+    color: #ffffff;
+    text-shadow: 0px 5px 10px #af2424;
+}
+.home .fa-angle-down
+{
+    font-size: 50px;
+    color: white;
+    position: absolute;
+    top:85%;
+    left: 49%;
+    animation-name: anime;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+    transition: top 1s;
+}
+@keyframes anime
+{
+    0%{top:85%;}
+    100%{top:88%;}
+}
+/* end of section home */
 /*About */
 .about-desc 
 {
