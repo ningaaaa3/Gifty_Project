@@ -153,3 +153,13 @@
 
 
 /*end about*/
+footer ul:first-of-type li
+{
+    color: #777777;
+    margin-bottom: 20px
+}
+
+footer .finish{
+   margin-top:100px;
+   margin-bottom:30px
+}
